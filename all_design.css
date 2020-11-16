@@ -125,7 +125,6 @@ button {
   padding-right: 200px;
 }
 
-
 .container.recipe-text {
 display: flex;
 flex-direction: column;
@@ -134,6 +133,11 @@ flex-direction: column;
 .card-container.recipe-container {
 display: flex;
 flex-direction: column;
+}
+
+.stretched-link, .stretched-link:visited, .stretched-link:hover, .stretched-link:active {
+  color: var(--primary-teal);
+  text-decoration: none;
 }
 
 .H-eating-page {
