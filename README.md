@@ -8,6 +8,8 @@ This is a site focusing on areas of life that are important to us both 🧘‍�
 
 It was a fun and interesting project where our understanding of HTML and CSS (and JavaScript) grew massively.
 
+To view our page: https://em1lyjayner0se.github.io/Serenity-CFG-Project/index.html
+
 ## Contributing 
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
