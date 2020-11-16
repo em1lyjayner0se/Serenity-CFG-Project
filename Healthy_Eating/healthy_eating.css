@@ -1,0 +1,64 @@
+
+
+* {
+    box-sizing: border-box;
+  }
+
+
+  body {
+    --primary-teal: #00d8d6;
+    --primary-light-teal: #34e7e4;
+    --primary-grey: #d2dae2;
+    --primary-blue: #4bcffa;
+    --primary-dark-blue: #0fbcf9;
+    --primary-coral: #ef5777;
+    --primary-dark-coral: #f53b57;
+  }
+
+  .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color:black !important;
+}
+
+  a.card,
+  a.card:hover {
+    color: #212529;
+    text-decoration: none;
+  }
+
+.container.recipe-text {
+    text-align: justify;
+    text-justify: inter-word;
+    padding-right: 200px;
+  }
+
+.text-wrap {
+    width: 280px;
+    height: 320px;
+    float: right;
+    margin: 10px;
+    padding: 10px;
+}
+
+h3 {
+  color: var(--primary-teal);
+}
+
+h6, h5 {
+  color: var(--primary-grey)
+}
+  
+.container.recipe-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-container.recipe-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.H-eating-page {
+  display: flex;
+  flex-direction: row-reverse;
+
+}

@@ -1,0 +1,201 @@
+
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  --primary-teal: #00d8d6;
+  --primary-light-teal: #34e7e4;
+  --primary-grey: #d2dae2;
+  --primary-blue: #4bcffa;
+  --primary-dark-blue: #0fbcf9;
+  --primary-coral: #ef5777;
+  --primary-dark-coral: #f53b57;
+}
+
+body {
+font-family: 'Bellota';
+}
+
+
+input[type='submit'] { font-size: 14px; font-family: 'Bellota Text'; font-weight: bold; }
+    
+
+button {
+  font-family: 'Bellota Text'
+}
+
+.search-container {
+  padding: 10px;
+  margin-top: 0px;
+  margin-left: 10px;
+  border: none;
+  cursor: pointer;  
+}
+
+.search-button {
+  background-color: white;
+  color: black;
+  border: 2px solid #00d8d6;
+  border-radius: 5px;
+  padding: 10px;
+  width: 200px;
+  height: 26px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.submit-button {
+  background-color: var(--primary-grey);
+  color: white;
+  border: 2px solid var(--primary-teal);
+  border-radius: 5px;
+  padding: 0px;
+  width: 60px;
+  height: 25px;
+}
+
+.site-title {
+  color: var(--primary-teal)
+}
+
+.site-title a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  padding: 30px 0px;
+}
+
+.site-title a:hover {
+  color: var(--primary-light-teal);
+}
+
+.drop-down {
+  float: right;
+  background-color: none;
+  width: 220px;
+  height: 150px;
+}
+
+.drop-down a {
+  float: center;
+  display: block;
+  color: var(--primary-teal);
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.drop-down a:hover {
+  background: var(--primary-teal);
+  display: block;
+  cursor: pointer;
+  padding: 10px 10px 10px 45px;
+  color: white;
+}
+
+.drop-down a {
+  background-color: white;
+  color: black;
+  border: 2px solid #00d8d6;
+}
+
+.drop-down {
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.drop-down {
+  z-index: 1000;
+  position: absolute;
+  top: 5%;
+  right: 20px;
+}
+
+.container.recipe-text {
+  text-align: justify;
+  text-justify: inter-word;
+  padding-right: 200px;
+}
+
+
+.container.recipe-text {
+display: flex;
+flex-direction: column;
+}
+
+.card-container.recipe-container {
+display: flex;
+flex-direction: column;
+}
+
+.H-eating-page {
+display: flex;
+flex-direction: row-reverse;
+}
+
+h3 {
+  color: var(--primary-teal);
+}
+
+h6 {
+  color: var(--primary-grey)
+}
+
+.text-wrap {
+  width: 280px;
+  height: 320px;
+  float: right;
+  margin: 10px;
+  padding: 10px;
+}
+
+footer {
+  text-align: center;
+}
+
+footer {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.social-icon:hover {
+  position: relative;
+  padding: 10px;
+  margin: 10px; 
+  transform: scale(2.5);
+  cursor: pointer;
+}
+
+  /* Large */
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    /* This aligns items to the end line on main-axis */
+    justify-content: flex-end;
+  }
+  
+  /* Medium screens */
+  @media all and (max-width: 800px) {
+    .navigation {
+      /* When on medium sized screens, we center it by evenly distributing empty space around items */
+      justify-content: space-around;
+    }
+  }
+  
+  /* Small screens */
+  @media all and (max-width: 500px) {
+    .navigation {
+      /* On small screens, we are no longer using row direction but column */
+      flex-direction: column;
+    }
+  }
