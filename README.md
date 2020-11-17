@@ -19,6 +19,7 @@ Please make sure to update tests as appropriate.
 ## Authors ⌨ and acknowledgement 🙏🙌
 
 Main Page and Healthy Eating pages created by: Emily Watkins
+
 Healthy Mind and Healthy Lifestyle created by: Zeynep Zeydanli 
 
 A big thank you to CFG for running the course and also all the amazing instructors from The Trainline - especially Richard and Oussama for all the additional help given. 
