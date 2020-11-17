@@ -15,15 +15,11 @@
     --primary-dark-coral: #f53b57;
   }
 
-  .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
-    background-color:black !important;
-}
-
-  a.card,
-  a.card:hover {
-    color: #212529;
+  .stretched-link, .stretched-link:visited, .stretched-link:hover, .stretched-link:active {
+    color: var(--primary-teal);
     text-decoration: none;
   }
+
 
 .container.recipe-text {
     text-align: justify;
@@ -47,18 +43,3 @@ h6, h5 {
   color: var(--primary-grey)
 }
   
-.container.recipe-text {
-  display: flex;
-  flex-direction: column;
-}
-
-.card-container.recipe-container {
-  display: flex;
-  flex-direction: column;
-}
-
-.H-eating-page {
-  display: flex;
-  flex-direction: row-reverse;
-
-}
