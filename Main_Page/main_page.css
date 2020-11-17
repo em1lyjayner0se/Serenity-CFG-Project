@@ -155,10 +155,13 @@ button {
   opacity:1;
 }
 
-.video {
+video {
   display: flex;
   align-content: stretch;
+}
+video {
   max-width: 100%;
+  height: auto;
 }
 
 .video-round {
