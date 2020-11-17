@@ -157,7 +157,7 @@ button {
 
 video {
   display: flex;
-  align-content: stretch;
+  align-content: center;
 }
 video {
   max-width: 100%;
