@@ -1,0 +1,218 @@
+
+* {
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    --primary-teal: #00d8d6;
+    --primary-light-teal: #34e7e4;
+    --primary-grey: #d2dae2;
+    --primary-blue: #4bcffa;
+    --primary-dark-blue: #0fbcf9;
+    --primary-coral: #ef5777;
+    --primary-dark-coral: #f53b57;
+  }
+  
+  body {
+    font-family: 'Bellota';
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    overflow: hidden;
+    float: center;
+    position: relative;
+    padding: 30px 0px;
+    height: 150px;
+    text-align: center;
+    font-family: 'Bellota';
+  }
+  
+  h1
+  a:link{
+    text-decoration: none;
+    color:var(--primary-teal);
+  }
+  a:visited{
+    text-decoration: none;
+    color:var(--primary-teal);
+  }
+  a:hover{
+    text-decoration: none;
+    background-color: none;
+    color: var(--primary-dark-blue);
+  }
+  a:active{
+    text-decoration: none;
+    color:var(--primary-teal);
+  }
+  
+  h3
+  a:link{
+    text-decoration: none;
+    color:var(--primary-teal);
+  }
+  a:visited{
+    text-decoration: none;
+    color:var(--primary-teal);
+  }
+  a:hover{
+    text-decoration: none;
+    background-color: none;
+    color: var(--primary-dark-blue);
+  }
+  a:active{
+    text-decoration: none;
+    color:var(--primary-teal);
+  }
+  
+  .navbar{
+    float: right;
+    overflow: hidden;
+    background-color: none;
+    width: 280px;
+    height: 200px;
+    margin: 10px;
+    z-index: 1000;
+    position: absolute;
+    top: 5%;
+    right: 20px;
+    font-family: "Bellota";
+  }
+  
+  .navbar a{
+    float: center;
+    display: block;
+    color: var(--primary-teal);
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    border: 2px solid  #00d8d6;
+  }
+  
+  .navbar a:hover {
+    cursor: pointer;
+    padding: 10px 10px 10px 45px;
+    background: var(--primary-teal);
+    display: block;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .main-container {
+    padding-top: 50px;
+    padding-left: 3%;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-family: "Bellota";
+  }
+  
+  .main-container .column {
+    float: left;
+    width: 33.33%;
+    padding: 40px;
+  }
+  .main-container img {
+    width: 100%;
+    height: 100%;
+    color: white;
+  }
+  
+  .main-container .source {
+    font-style: italic;
+    color: darkblue;
+  }
+  
+  .column {
+    position: relative;
+    width: 50%;
+  }
+  
+  .card {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 100%;
+    right: 0;
+    background-color: var(--primary-teal);
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    color: white;
+  }
+  
+  .overlay ul.list {
+    list-style-type: circle;
+  }
+  
+  .column:hover .overlay {
+    width: 100%;
+    left: 0;
+    list-style-type: circle;
+  }
+  
+  .text {
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    color: white;
+    
+  }
+  
+  footer {
+    background: none repeat scroll 0 0 transparent;
+    background-color: none;
+    bottom: 20px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+  }
+  
+  footer a {
+    margin: 30px;
+  }
+  
+  footer .instagram:hover{
+      position: relative;
+      transform: scale(2.5);
+      cursor: pointer;
+      background-color: white;
+      color: default;
+  }
+  
+  footer .facebook:hover {
+    position: relative;
+    transform: scale(2.5);
+    cursor: pointer;
+    background-color: white;
+    color: default;
+  }
+  
+  footer .youtube:hover{
+    position: relative;
+    transform: scale(2.5);
+    cursor: pointer;
+    background-color: white;
+    color: default;
+  }
+  
+  
