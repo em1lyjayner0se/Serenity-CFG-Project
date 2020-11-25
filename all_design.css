@@ -73,12 +73,6 @@ button {
   color: var(--primary-light-teal);
 }
 
-.drop-down {
-  float: right;
-  background-color: none;
-  width: 220px;
-  height: 150px;
-}
 
 .drop-down a {
   float: center;
@@ -106,29 +100,29 @@ button {
 }
 
 .drop-down {
+  float: right;
+  background-color: none;
+  width: 220px;
+  height: 150px;
+
   margin-right: 10px;
   margin-top: 10px;
   margin-left: 10px;
   margin-bottom: 10px;
-}
 
-.drop-down {
   z-index: 1000;
   position: absolute;
   top: 5%;
   right: 20px;
 }
 
-
 .container.recipe-text {
   text-align: justify;
   text-justify: inter-word;
   padding-right: 200px;
-}
 
-.container.recipe-text {
-display: flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column; 
 }
 
 .card-container.recipe-container {
@@ -176,15 +170,14 @@ flex-direction: column;
 .star-rating .star-value {
   height: 100%;
   position: absolute;
-}
 
-.star-rating .star-value {
   position: absolute;
   height: 100%;
   width: 100%;
   background: url('./star_1.svg') ;
   background-repeat: repeat-x;
 }
+
 
 .H-eating-page {
 display: flex;
@@ -207,11 +200,10 @@ h6 {
   padding: 10px;
 }
 
-footer {
-  text-align: center;
-}
 
 footer {
+  text-align: center;
+
   background: none repeat scroll 0 0 transparent;
   bottom: 20px;
   text-align: center;

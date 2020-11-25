@@ -73,12 +73,6 @@ button {
   color: var(--primary-light-teal);
 }
 
-.drop-down {
-  float: right;
-  background-color: none;
-  width: 220px;
-  height: 150px;
-}
 
 .drop-down a {
   float: center;
@@ -106,18 +100,22 @@ button {
 }
 
 .drop-down {
+  float: right;
+  background-color: none;
+  width: 220px;
+  height: 150px; 
+ 
   margin-right: 10px;
   margin-top: 10px;
   margin-left: 10px;
   margin-bottom: 10px;
-}
 
-.drop-down {
   z-index: 1000;
   position: absolute;
   top: 5%;
   right: 20px;
 }
+
 
 .flex-container {
   display: flex;
@@ -126,14 +124,11 @@ button {
 }
 
 .item {
-  padding: 0px;
-  margin: 5px;
-}
-
-.item {
   position: relative;
   width: 50%;
   max-width: 300px;
+  padding: 0px;
+  margin: 5px;
 }
 
 .overlay {
@@ -158,11 +153,11 @@ button {
 video {
   display: flex;
   align-content: center;
-}
-video {
+
   max-width: 100%;
   height: auto;
 }
+
 
 .video-round {
   width:700px;
